@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BijayProfile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e0a1c1b15b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-clock" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>
+                    Hi , I'm <span>Bijay</span><br /> From Nepal
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-----about--->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.png" alt="" />
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I'm Bijay Kumar Ray, a college student currently pursuing a bachelor's degree in computer science. I’m passionate about learning new technologies and working on exciting projects. Feel free to explore my portfolio and connect with me!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Front-end Developer</span><br />Designing Websites interface
+                            </li>
+
+                            <li>
+                                <span>Wordpress Developer</span><br />Developed Websites using wordpress
+                            </li>
+
+                            <li>
+                                <span>Data Analysist</span><br />Analysis the data using PowerBI
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2025 - Current </span><br />Designing Websites interface at Orchid College
+                            </li>
+
+                            <li>
+                                <span>2022 -2024 Wordpress Developer</span><br />Developed Websites using wordpress at infoTech Nepal pvt.ltd
+                            </li>
+
+                            <li>
+                                <span> 2021-2022 Data Analysist</span><br />Data Analysist at ProjecNepal pvt.ltd
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Current</span><br />Bsc CSIT from Orchid Int'l College Kathmandu
+                            </li>
+
+                            <li>
+                                <span>2021</span><br />+2 Science fron GoldenGate Int'l College Kathmandu
+                            </li>
+
+                            <li>
+                                <span>2019</span><br /> SEE from Siddhartha sishu sadan School Janakpur
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        I design clean, easy-to-use, and mobile-friendly websites. My goal is to make your website look good and work well for everyone.
+                    </p>
+                    <a href="#">Larn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Wordpress Developer</h2>
+                    <p>
+                        I build and customize WordPress websites to suit your needs. From design to functionality, I create easy-to-manage and professional sites.
+                    </p>
+                    <a href="#">Larn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-chart-diagram"></i>
+                    <h2>Data Analysis</h2>
+                    <p>
+                        I design clean, easy-to-use, and mobile-friendly websites. My goal is to make your website look good and work well for everyone.
+                    </p>
+                    <a href="#">Larn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------protfolio---->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="Sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/dataAnalysis.png" alt="">
+                    <div class="layer">
+                        <h3>Data Analysis</h3>
+                        <p>Performed data analysis using Power BI, creating interactive dashboards to visualize key insights and trends.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/wordpress.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress websites</h3>
+                        <p>"Developed a dynamic WordPress website for a pharmacy, featuring an intuitive design, product listings, and essential functionalities for seamless user experience."</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/dataAnalysis.png" alt="">
+                    <div class="layer">
+                        <h3>Data Analysis</h3>
+                        <p>Performed data analysis using Power BI, creating interactive dashboards to visualize key insights and trends.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-square-envelope"></i>itengineerbijay777@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+9779804805801</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1AteTwT5mS/?mibextid=wwXIfr"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://l.facebook.com/l.php?u=http%3A%2F%2FWa.me%2F%2B9779804805801%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR11fKa7bkfbW_M2H00PAXV4Fxd4X8us5hBygZuK_HjsU7CQ-5gWkVXp_Eo_aem_9xnlxMWdVE7t-gw12gIfEg&h=AT16ENhJO2QP7z81HMXqAlTIb0yDs5YSYWWMSJgaepBcP9MgWwNihVZTPoyo7uvbnN-je6Qq68FWk-7CBiPGnW5bbBY6CpEAw63RAJKdx57OWmO9NiGSg6kAYTa-zyK0d8INsUMFvfcwcvF5obLMIA"><i class="fa-brands fa-whatsapp"></i></a>
+    
+                    </div>
+                    <a href="" download class="btn btn2">Download  CV</a>
+    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type "email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+    
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; Bijay Roy. Made with <i class="fa-solid fa-heart"></i> Thank for Visit.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEF-ND1YKPs0r5JvmLmq7pQiLcBJUDElIIoBcaRXk8F3NAIWLGLJLd0bFDu3zlyqKOfg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },500)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    <script>
+     var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+     sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+     sidemeu.style.right="-200px";
+
+    }
+
+    </script>
+
+</body>
+
+</html>
